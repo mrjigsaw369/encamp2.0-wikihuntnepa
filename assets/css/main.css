@@ -1,10 +1,23 @@
 @import url(fontawesome-all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&family=Roboto+Mono&family=Staatliches&family=Ubuntu+Mono&display=swap');
 
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+h1{
+	text-align: center;
+	
+}
+.roboto-mono{
+	font-family:'Roboto Mono', monospace;
+	color: #13f531;
+}
+.cent-align{
+text-align: center;	
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -98,7 +111,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #000000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3240,7 +3253,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #0a041a;
 		}
 
 		.wrapper.style1-alt {
@@ -3504,7 +3517,7 @@ input, select, textarea {
 		}
 
 	#footer > .inner a {
-		border-bottom-color: rgba(255, 255, 255, 0.15);
+		border-bottom-color: rgb(0, 0, 0);
 	}
 
 		#footer > .inner a:hover {
